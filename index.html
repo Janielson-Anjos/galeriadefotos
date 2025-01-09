@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Fotos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Galeria de Fotos</h1>
+</header>
+
+<section class="search-bar">
+  <input type="text" id="search" placeholder="Pesquise por palavras-chave...">
+  <button onclick="filterPhotos()">🔍</button>
+</section>
+
+<main class="gallery" id="gallery"></main>
+
+<p class="no-results" id="noResults" style="display: none;">Nenhuma foto encontrada</p>
+
+<footer class="footer">
+  <p>&copy; 2024 Galeria de Fotos. Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
