@@ -1,18 +1,20 @@
 
 # Galeria de Fotos
 
-Este projeto é uma aplicação de galeria de fotos que exibe imagens de cachorros, permitindo que os usuários visualizem e filtrem as fotos com base em palavras-chave.
+Esta é uma aplicação web de Galeria de Fotos, que permite aos usuários visualizar, pesquisar e filtrar imagens de cachorros. A aplicação foi desenvolvida utilizando HTML semântico, CSS para estilização e JavaScript para funcionalidades dinâmicas. As imagens são carregadas de uma API pública, e cada cachorro recebe um nome aleatório para facilitar a identificação.
 
 
 ## Funcionalidades
 
-- Exibição de uma galeria de imagens de cachorros obtidas de uma API pública.
+- Carregamento de Imagens: As fotos são carregadas a partir da API pública Dog CEO API.
 
-- Pesquisa em tempo real por nome da foto.
+- Busca Dinâmica: Uma barra de busca permite que os usuários filtrem as fotos em tempo real com base nos nomes dos cachorros.
 
-- Layout responsivo e interativo com efeitos visuais ao passar o mouse sobre as fotos.
+- Efeito Interativo: Ao passar o mouse sobre as fotos, um efeito visual é aplicado para melhorar a experiência do usuário.
 
-- Rodapé com informações de copyright.
+- Responsividade: A aplicação é responsiva e funciona bem em dispositivos de diferentes tamanhos.
+
+- Mensagens Informativas: Quando nenhuma foto corresponde à busca, uma mensagem é exibida ao usuário. 
 
 
 ## Tecnologias Utilizadas
